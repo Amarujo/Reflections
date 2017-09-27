@@ -1,0 +1,2 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It's different from the both because is like a step before a commit, where you can ADD the files you need to track from your project.
