@@ -12,3 +12,6 @@ Some good situations for branching could be when you want to create a new langua
 
 How do the diagrams help you visualize the branch structure?
 It's a good tool because you can see how the structure is going, you can see in a clear way how the branches are created, that's important because branches are usually created when important changes for testing or safety purposes are needed
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a new commit that merge commits from both braches, That representation is like this because the commit after mergin two branches will point to both parents, to both last commits of the two parent branches
