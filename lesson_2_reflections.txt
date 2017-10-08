@@ -15,3 +15,6 @@ It's a good tool because you can see how the structure is going, you can see in 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is a new commit that merge commits from both braches, That representation is like this because the commit after mergin two branches will point to both parents, to both last commits of the two parent branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Of course Git's automatic merging is faster and confortable, but in some cases we got conflicts between commits, usually from different authors, so we need to decide which lines we will keep and which will be descarted.
